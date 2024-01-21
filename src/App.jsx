@@ -1,3 +1,5 @@
+import Feedback from "components/components/Feedback";
+
 export const App = () => {
   return (
     <div
@@ -11,6 +13,7 @@ export const App = () => {
       }}
     >
       React homework template
+      <Feedback/>
     </div>
   );
 };
