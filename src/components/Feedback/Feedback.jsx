@@ -55,7 +55,7 @@ class Feedback extends Component {
                     <Statistic good={this.state.good} bad={this.state.bad} neutral={this.state.neutral} total={total} positiveFeedback={positiveFeedback}  />
                 </Section> 
                 : 
-                <Notification message="There is no feedback" />}  
+                <Notification message="There is no feedback..." />}  
 
             </div>
         )
